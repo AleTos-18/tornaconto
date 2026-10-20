@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "annoImposta": 2026,
+  "revisione": 1,
+  "nota": "Valori del 730/2026 (spese 2025) più le novità della legge di bilancio 2026. Da riconfermare con le istruzioni del 730/2027.",
+  "gruppiFranchigia": [
+    { "id": "SANITARIE", "descrizione": "Spese sanitarie", "franchigiaCentesimi": 12911 },
+    { "id": "VETERINARIE", "descrizione": "Spese veterinarie", "franchigiaCentesimi": 12911, "massimaleCentesimi": 55000 }
+  ],
+  "categorie": [
+    {
+      "id": "SANITARIE_FARMACI",
+      "descrizione": "Farmaci (scontrino parlante)",
+      "codice730": "E1",
+      "aliquotaPercento": 19,
+      "gruppoFranchigia": "SANITARIE",
+      "tracciabilitaObbligatoria": false,
+      "soggettaRiordino": false,
+      "soggettaRiduzioneRedditiAlti": false,
+      "soggettaTaglioRedditiAlti": false
+    },
+    {
+      "id": "SANITARIE_DISPOSITIVI",
+      "descrizione": "Dispositivi medici",
+      "codice730": "E1",
+      "aliquotaPercento": 19,
+      "gruppoFranchigia": "SANITARIE",
+      "tracciabilitaObbligatoria": false,
+      "soggettaRiordino": false,
+      "soggettaRiduzioneRedditiAlti": false,
+      "soggettaTaglioRedditiAlti": false
+    },
+    {
+      "id": "SANITARIE_SSN",
+      "descrizione": "Prestazioni SSN o strutture accreditate (ticket)",
+      "codice730": "E1",
+      "aliquotaPercento": 19,
+      "gruppoFranchigia": "SANITARIE",
+      "tracciabilitaObbligatoria": false,
+      "soggettaRiordino": false,
+      "soggettaRiduzioneRedditiAlti": false,
+      "soggettaTaglioRedditiAlti": false
+    },
+    {
+      "id": "SANITARIE_PRIVATE",
+      "descrizione": "Visite e prestazioni sanitarie private",
+      "codice730": "E1",
+      "aliquotaPercento": 19,
+      "gruppoFranchigia": "SANITARIE",
+      "tracciabilitaObbligatoria": true,
+      "soggettaRiordino": false,
+      "soggettaRiduzioneRedditiAlti": false,
+      "soggettaTaglioRedditiAlti": false
+    },
+    {
+      "id": "VETERINARIE_FARMACI",
+      "descrizione": "Farmaci veterinari (scontrino parlante)",
+      "codice730": "29",
+      "aliquotaPercento": 19,
+      "gruppoFranchigia": "VETERINARIE",
+      "tracciabilitaObbligatoria": false
+    },
+    {
+      "id": "VETERINARIE_SSN",
+      "descrizione": "Prestazioni veterinarie in strutture pubbliche o accreditate",
+      "codice730": "29",
+      "aliquotaPercento": 19,
+      "gruppoFranchigia": "VETERINARIE",
+      "tracciabilitaObbligatoria": false
+    },
+    {
+      "id": "VETERINARIE_PRIVATE",
+      "descrizione": "Visite, analisi e interventi veterinari privati",
+      "codice730": "29",
+      "aliquotaPercento": 19,
+      "gruppoFranchigia": "VETERINARIE",
+      "tracciabilitaObbligatoria": true
+    },
+    {
+      "id": "ISTRUZIONE",
+      "descrizione": "Istruzione non universitaria",
+      "codice730": "12",
+      "aliquotaPercento": 19,
+      "massimaleCentesimi": 100000,
+      "baseMassimale": "BENEFICIARIO",
+      "tracciabilitaObbligatoria": true
+    },
+    {
+      "id": "SPORT_RAGAZZI",
+      "descrizione": "Attività sportive dei ragazzi",
+      "codice730": "16",
+      "aliquotaPercento": 19,
+      "massimaleCentesimi": 21000,
+      "baseMassimale": "BENEFICIARIO",
+      "tracciabilitaObbligatoria": true,
+      "etaMinima": 5,
+      "etaMassima": 18
+    },
+    {
+      "id": "AFFITTO_STUDENTI",
+      "descrizione": "Affitto studenti universitari fuori sede",
+      "codice730": "18",
+      "aliquotaPercento": 19,
+      "massimaleCentesimi": 263300,
+      "baseMassimale": "CONTRIBUENTE",
+      "tracciabilitaObbligatoria": true
+    },
+    {
+      "id": "ASILO_NIDO",
+      "descrizione": "Rette asilo nido",
+      "codice730": "33",
+      "aliquotaPercento": 19,
+      "massimaleCentesimi": 63200,
+      "baseMassimale": "BENEFICIARIO",
+      "tracciabilitaObbligatoria": true,
+      "etaMassima": 3
+    },
+    {
+      "id": "TRASPORTO_PUBBLICO",
+      "descrizione": "Abbonamenti al trasporto pubblico",
+      "codice730": "40",
+      "aliquotaPercento": 19,
+      "massimaleCentesimi": 25000,
+      "baseMassimale": "CONTRIBUENTE",
+      "tracciabilitaObbligatoria": true
+    },
+    {
+      "id": "MUSICA_RAGAZZI",
+      "descrizione": "Conservatori, AFAM, scuole di musica, cori e bande riconosciuti",
+      "codice730": "45",
+      "aliquotaPercento": 19,
+      "massimaleCentesimi": 100000,
+      "baseMassimale": "BENEFICIARIO",
+      "tracciabilitaObbligatoria": true,
+      "etaMinima": 5,
+      "etaMassima": 18,
+      "redditoMassimoCentesimi": 3600000
+    },
+    {
+      "id": "FUNEBRI",
+      "descrizione": "Spese funebri",
+      "codice730": "14",
+      "aliquotaPercento": 19,
+      "massimaleCentesimi": 155000,
+      "baseMassimale": "EVENTO",
+      "tracciabilitaObbligatoria": true,
+      "nota": "Il limite vale per decesso anche se la spesa è sostenuta da più persone."
+    }
+  ],
+  "riordino": {
+    "redditoSogliaCentesimi": 7500000,
+    "fasce": [
+      { "redditoOltreCentesimi": 7500000, "redditoFinoACentesimi": 10000000, "importoBaseCentesimi": 1400000 },
+      { "redditoOltreCentesimi": 10000000, "importoBaseCentesimi": 800000 }
+    ],
+    "coefficienti": {
+      "nessunFiglio": 0.50,
+      "unFiglio": 0.70,
+      "dueFigli": 0.85,
+      "piuDiDueOFiglioDisabile": 1.00
+    }
+  },
+  "riduzioneRedditiAlti": {
+    "redditoInizioCentesimi": 12000000,
+    "redditoAzzeramentoCentesimi": 24000000
+  },
+  "taglioRedditiAlti": {
+    "redditoOltreCentesimi": 20000000,
+    "importoCentesimi": 44000
+  }
+}
