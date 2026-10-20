@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informativa privacy – Tornaconto</title>
+<style>
+  :root { --sfondo: #fffaf7; --testo: #1f2a44; --tenue: #5b6478; --accento: #e2603f; --riquadro: #fbe9e3; }
+  @media (prefers-color-scheme: dark) { :root { --sfondo: #151a26; --testo: #eef0f5; --tenue: #a9b0c0; --accento: #f08a6c; --riquadro: #232a3b; } }
+  body { margin: 0; background: var(--sfondo); color: var(--testo); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; color: var(--accento); }
+  .data { color: var(--tenue); margin: 0 0 24px; }
+  .riquadro { background: var(--riquadro); border-radius: 12px; padding: 16px 20px; }
+  a { color: var(--accento); }
+  li { margin: 4px 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>Informativa privacy di Tornaconto</h1>
+<p class="data">Ultimo aggiornamento: 20 ottobre 2026</p>
+
+<div class="riquadro">
+<p><strong>In breve:</strong> Tornaconto non ha account, server né pubblicità. Spese, documenti e dati della tua famiglia restano sul tuo telefono e lo sviluppatore non può vederli. Escono dal telefono solo dati tecnici anonimi inviati a Google dalla libreria che legge i documenti, descritti più sotto.</p>
+</div>
+
+<h2>Chi sviluppa l'app</h2>
+<p>Tornaconto è sviluppata da AleTos, sviluppatore individuale. Per qualsiasi domanda: <a href="mailto:AleTos18Dev@gmail.com">AleTos18Dev@gmail.com</a>.</p>
+
+<h2>Dati che inserisci nell'app</h2>
+<p>Per stimare le detrazioni puoi inserire:</p>
+<ul>
+  <li>i componenti del nucleo familiare (nome, ruolo, data di nascita, codice fiscale facoltativo, figli a carico, disabilità);</li>
+  <li>le spese (categoria, data, importo, esercente, metodo di pagamento, note) e il reddito previsto;</li>
+  <li>foto e PDF di scontrini, fatture e ricevute, con il testo letto da questi documenti.</li>
+</ul>
+<p>Questi dati sono salvati <strong>solo sul tuo dispositivo</strong>: l'archivio è cifrato con una chiave custodita dal sistema di sicurezza di Android, i documenti stanno nella memoria privata dell'app. Non vengono inviati allo sviluppatore né ad altri e sono esclusi dal backup automatico di Android. La lettura dei documenti avviene sul telefono.</p>
+
+<h2>Quando i dati escono dal telefono</h2>
+<ul>
+  <li><strong>Esportazioni e backup che scegli tu.</strong> Il dossier per il CAF (PDF o ZIP) e il backup vengono creati solo quando lo chiedi e finiscono dove decidi tu (un'altra app, una cartella, il cloud che usi). Il backup è cifrato con la password che scegli: senza password non si può aprire, nemmeno dallo sviluppatore.</li>
+  <li><strong>Dati tecnici di Google ML Kit.</strong> Per leggere i documenti l'app usa le librerie Google ML Kit, che inviano a Google, tramite connessione cifrata, informazioni tecniche per diagnostica e statistiche d'uso: tipo di dispositivo, versione dell'app e della libreria, prestazioni ed errori, un identificatore legato all'installazione. Non vengono inviate immagini né testi dei tuoi documenti. Dettagli: <a href="https://developers.google.com/ml-kit/android-data-disclosure">ML Kit – informazioni sui dati</a> e <a href="https://policies.google.com/privacy?hl=it">Privacy di Google</a>.</li>
+  <li><strong>Scanner dei documenti.</strong> La scansione con la fotocamera usa un componente di Google Play services; le immagini sono elaborate sul dispositivo e restituite solo all'app.</li>
+  <li><strong>Aggiornamento delle regole fiscali.</strong> Una volta a settimana l'app scarica un file pubblico con le regole del 730 da GitHub Pages (servizio di GitHub, Inc.). La richiesta non contiene dati tuoi; come per ogni sito, GitHub riceve l'indirizzo IP e i dati tecnici della connessione. Dettagli: <a href="https://docs.github.com/it/site-policy/privacy-policies/github-general-privacy-statement">Informativa di GitHub</a>.</li>
+  <li><strong>Notifiche.</strong> I promemoria, se li attivi, sono generati sul telefono: non passano da server esterni.</li>
+</ul>
+
+<h2>Cosa non fa l'app</h2>
+<ul>
+  <li>Non chiede account né accessi.</li>
+  <li>Non contiene pubblicità, sistemi di profilazione o strumenti di analisi dello sviluppatore.</li>
+  <li>Non vende né condivide dati personali.</li>
+</ul>
+
+<h2>Permessi</h2>
+<ul>
+  <li><strong>Internet</strong>: solo per scaricare il file delle regole fiscali.</li>
+  <li><strong>Notifiche</strong>: solo se attivi i promemoria.</li>
+</ul>
+<p>Le librerie di Android usate per i promemoria aggiungono permessi tecnici standard (stato della rete, riavvio dei promemoria dopo l'accensione del telefono). Non servono permessi per fotocamera o file: scanner e selettore dei file di Android consegnano all'app solo i documenti che scegli.</p>
+
+<h2>Conservazione e cancellazione</h2>
+<p>I dati restano sul telefono finché non li elimini dall'app, non cancelli i dati dell'app dalle impostazioni di Android o non la disinstalli. Poiché lo sviluppatore non riceve i tuoi dati, non ha nulla da conservare o cancellare. Per i dati tecnici raccolti da Google valgono le regole di Google.</p>
+
+<h2>Minori</h2>
+<p>L'app è rivolta a persone maggiorenni che preparano la dichiarazione dei redditi. Può contenere dati dei figli inseriti dai genitori, che restano sul dispositivo come tutti gli altri.</p>
+
+<h2>Natura delle stime</h2>
+<p>Tornaconto non è un servizio dell'Agenzia delle Entrate né di un CAF. I calcoli sono stime indicative e non costituiscono consulenza fiscale.</p>
+
+<h2>Modifiche</h2>
+<p>Eventuali modifiche a questa informativa saranno pubblicate su questa pagina, con la data di aggiornamento.</p>
+
+<p><a href="./">← Torna a Tornaconto</a></p>
+</main>
+</body>
+</html>
